@@ -29,7 +29,7 @@ msgstr "klucz aktywacyjny"
 
 #: forms.py:36 forms.py:114
 msgid "E-mail"
-msgstr ""
+msgstr "Email"
 
 #: forms.py:52
 msgid "A user with that username already exists."
@@ -88,16 +88,16 @@ msgstr "klucz aktywacyjny"
 #: templates/registration/activation_complete.html:4
 #: templates/registration/activation_complete_admin_pending.html:4
 msgid "Account Activated"
-msgstr ""
+msgstr "Konto aktywne."
 
 #: templates/registration/activation_complete.html:8
 #: templates/registration/activation_complete_admin_pending.html:8
 msgid "Your account is now activated."
-msgstr ""
+msgstr "Twoje konto jest teraz aktywne."
 
 #: templates/registration/activation_complete.html:10
 msgid "You can log in."
-msgstr ""
+msgstr "Możez sie zalogować."
 
 #: templates/registration/activation_complete_admin_pending.html:10
 msgid "Once a site administrator activates your account you can login."
@@ -129,7 +129,12 @@ msgid ""
 "next\n"
 "    %(expiration_days)s days:\n"
 "    "
-msgstr ""
+msgstr  ""
+"\n"
+"    Aby aktywować to konto, kliknij w poniższy link w ciągu "
+"next\n"
+"    %(expiration_days)s dni:\n"
+"    "
 
 #: templates/registration/activation_email.html:30
 #: templates/registration/admin_approve_email.html:23
